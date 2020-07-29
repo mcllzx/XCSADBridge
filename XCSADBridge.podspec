@@ -11,4 +11,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'ios/XCSADBridge.framework'
+  s.dependency 'ADSuyiSDK'
+  s.dependency 'XCSADCore'
+  
 end
