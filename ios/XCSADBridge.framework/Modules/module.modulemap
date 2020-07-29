@@ -1,0 +1,6 @@
+framework module XCSADBridge {
+  umbrella header "XCSADBridge.h"
+
+  export *
+  module * { export * }
+}
